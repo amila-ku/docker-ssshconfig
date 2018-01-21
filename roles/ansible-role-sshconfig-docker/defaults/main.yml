@@ -1,0 +1,4 @@
+---
+# defaults file for roles/ansible-role-sshconfig
+ssh_key_file: ./ssh/id_rsa.pub
+docker_ssh_file: ./ssh/qkey.pub

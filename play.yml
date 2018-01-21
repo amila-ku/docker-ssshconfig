@@ -1,0 +1,12 @@
+---
+
+#- hosts: localhost
+#  roles:
+#     - ansible-role-docker
+
+- hosts: mycont*
+  remote_user: root
+  connection: docker
+  gather_facts: false
+  roles:
+     - ansible-role-sshconfig-docker
