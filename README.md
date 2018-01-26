@@ -14,6 +14,7 @@ This will perform following acts
 
 remove content in ssh folder apart from id_rsa and id_rsa.pub, replace them if you want to use different set of keys.
 
+how to run the playbook : 
 ```
 ansible-playbook -i docker.py  play.yml
 
